@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="coustomise-container">
+            <b for="">Text</b>
+            <h6>Customizing</h6>
+            <hr>
+            <div class="tool1">
+                <p>line Height</p>
+                <input type="range" name="" id="line-height" max="50" min="0" value="15">
+            </div>
+            <div class="tool2">
+                <p>Letter spacing(pixels)</p>
+                <input type="range" name="" id="letter-spacing" max="10" min="0" value="0">
+            </div>
+            <div class="tool3">
+                <p>Word spacing(pixels)</p>
+                <input type="range" name="" id="word-spacing" max="100" min="0" value="0">
+            </div>
+            <div class="tool4">
+                <p>Text align</p>
+                <select name="" id="text-align">
+                    <option value="left">Left</option>
+                    <option value="right">Right</option>
+                    <option value="center">Center</option>
+                    <option value="justify">Justify</option>
+                </select>
+            </div>
+
+            <div class="tool5">
+                <p>Text decoration</p>
+                <select name="" id="text-decoration">
+                    <option value="none">None</option>
+                    <option value="underline">Underline</option>
+                    <option value="overline">Overline</option>
+                    <option value="line-through">Line Through</option>
+                </select>
+            </div>
+            <div class="tool6">
+                <p>Text Transform</p>
+                <select name="" id="text-transform">
+                    <option value="none">None</option>
+                    <option value="capitalize">Capitalize</option>
+                    <option value="uppercase">Uppercase</option>
+                    <option value="lowercase">Lowercase</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="preview-container">
+            <div class="preview">
+                <label for="">Preview</label>
+                <h6 class="preview-header">Text mode</h6>
+                <hr>
+                <div class="for-spacing">
+                    <p style="max-width: 550px;" class="text">
+                        Lorem ipsum, dolor sit amet consectetur
+                        adipisicing elit. Nam et laborum
+                        distinctio eos excepturi
+                        nemo vero, provident dolorem dolorum laudantium, accusantium, adipisci illo incidunt! Vel
+                        distinctio
+                        placeat dolor dolorum necessitatibus! Dolores rerum magnam sequi omnis
+                        distinctio
+                        placeat dolor dolorum necessitatibus! Dolores rerum magnam sequi omnis
+                    </p>
+                </div>
+            </div>
+            <div class="code-wrapper">
+                <label for="">Code</label>
+                <h6>Paste to your file(s)</h6>
+                <hr>
+                <div class="code-container">
+                    <h3 class="code-color-blue">css</h3>
+                    <div class="code-box" id="code-box">
+                        <span class="copy-code">line-height: <span id="code-to-copy-height">15px;</span></span> <br>
+                        <span class="copy-code">letter-spacing: <span id="code-to-copy-spacing">0px;</span></span> <br>
+                        <span class="copy-code">word-spacing: <span id="code-to-copy-word-spacing">0px;</span></span> <br>
+                        <span class="copy-code">text-align: <span id="code-to-copy-text-align">left;</span></span> <br>
+                        <span class="copy-code">text-decoration: <span id="code-to-copy-text-decoration">none;</span></span> <br>
+                        <span class="copy-code">text-transform: <span id="code-to-copy-text-transform">none;</span></span> <br>
+                    </div>
+                    <center><button class="btn" type="button">Copy</button></center>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+<!-- css-generator.netlify.app -->
+

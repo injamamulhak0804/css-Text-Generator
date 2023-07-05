@@ -1,0 +1,176 @@
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3c2475;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #dfe9eb;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #b8c0c2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #b8c0c2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #3c2475;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #62a34b;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #62a34b;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #0e141b;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px 40px;
+}
+.coustomise-container {
+  width: 700px;
+  height: 650px;
+  background-color: #0e141b;
+  border: 2px groove white;
+  border-radius: 10px;
+  padding: 10px 2px 2px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 1rem;
+  color: white;
+}
+input {
+  border: none;
+  outline: none;
+  width: 80%;
+  height: 2px;
+  background: #000;
+  color: black;
+}
+select {
+  width: 80%;
+  height: 30px;
+  padding: 0px 0px 0px 10px;
+}
+.tool1 {
+  padding-top: 30px;
+}
+.coustomise-container p {
+  padding-bottom: 10px;
+}
+.tool4,
+.tool5,
+.tool6 {
+  padding-bottom: 30px;
+}
+.preview {
+  max-width: 550px;
+  min-height: 300px;
+  background-color: #0e141b;
+  border: 2px groove white;
+  color: white;
+  font-family: monospace;
+  padding: 10px;
+}
+.preview-header {
+  padding-top: 5px;
+}
+.code-wrapper {
+  max-width: 550px;
+  height: 450px;
+  background-color: #0e141b;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  color: white;
+
+  font-family: monospace;
+}
+.code-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  position: relative;
+  color: black;
+  font-family: monospace;
+}
+.code-color-blue {
+  width: 40px;
+  font-size: small;
+  background-color: blue;
+  padding: 5px 15px;
+  border-radius: 5px 5px 0px 0px;
+  position: absolute;
+  top: 20px;
+  left: 140px;
+  color: white;
+}
+.code-box {
+  width: 250px;
+  height: 200px;
+  background-color: azure;
+  padding: 20px 10px 0px 20px;
+}
+.code-box {
+  line-height: 20px;
+}
+.btn {
+  padding: 10px 15px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.btn:hover{
+  background-color: white;
+}
+
+.copy-code {
+  line-height: 10px;
+}
+.line-height-value-in-Box {
+  width: 20px;
+  background: white;
+  color: #000;
+}
+.for-spacing {
+  padding: 30px;
+}
+
+/* Media Query */
+.text {
+  line-height: 15px;
+}
+
+@media screen and (max-width: 1300px) {
+  .coustomise-container {
+    margin-top: 50px;
+  }
+}
